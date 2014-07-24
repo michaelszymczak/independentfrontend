@@ -15,7 +15,7 @@ class server::frontend::nodejs {
     group => "vagrant"
   }
   package { 'bower':
-    ensure   => '1.3.2',
+    ensure   => '1.3.8',
     provider => 'npm',
     require   => Package["npm"],
   }
